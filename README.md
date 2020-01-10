@@ -8,4 +8,4 @@ To start Server :
 
 - When you start the project, the data of transactions of last 10000 blocks will be stored in your database.
 - You can get the tx list of address by using 
-    'localhost:3000/api/v1/users/tx?address=<address>'
+  'localhost:3000/api/v1/users/tx?address=<address>'
