@@ -9,7 +9,7 @@ class AuthService{
             let block = blockNum
             let result:any = []
             let loop = async (block)=> {
-                console.log("11111111111", count)
+                // console.log("11111111111", count)
                 let temp : any = await web3.eth.getBlock( block, true)
                 result.push(temp)
     
